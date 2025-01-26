@@ -21,11 +21,11 @@ let average = scores.reduce((a, b) => a + b) / scores.length;  // Calculate aver
 console.log("Updated Scores: ", scores);  // Log updated scores
 console.log("Average Score: ", average);  // Log average score
 
-//Task 3: Working with obects - Employee Records 
-let employee= {Name: "Yazmin Hues" , Age: 21, Department: "Marketing" , isActive: true };
-// Update the department Property
-employee.department="Marketing"; // The department reamins Marketing 
+// Task 3: Working with Objects - Employee Records
+let employee = {name: "Yazmin Hues",age: 21,department: "Marketing",isActive: true};
+// Update the department property
+employee.department = "Marketing";  // The department remains Marketing
 // Add a new property: position
-employee.position = " Creative Director "; // Adding a higher, creative position
+employee.position = "Creative Director";  // Adding a higher, creative position
 // Log the updated object to the console
-console.log (employee); // Log the updated employee object
+console.log(employee);  // Log the updated employee object
