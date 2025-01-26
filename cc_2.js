@@ -20,3 +20,12 @@ let average = scores.reduce((a, b) => a + b) / scores.length;  // Calculate aver
 // Log the updated array and average score
 console.log("Updated Scores: ", scores);  // Log updated scores
 console.log("Average Score: ", average);  // Log average score
+
+//Task 3: Working with obects - Employee Records 
+let employee= {Name: "Yazmin Hues" , Age: 21, Department: "Marketing" , isActive: true };
+// Update the department Property
+employee.department="Marketing"; // The department reamins Marketing 
+// Add a new property: position
+employee.position = " Creative Director "; // Adding a higher, creative position
+// Log the updated object to the console
+console.log (employee); // Log the updated employee object
