@@ -40,3 +40,17 @@ let customers =[
 customers.push({ name :"Henry Centella ", email:"hencentella@gmail.com", purchaseAmount: 140}); // New customer 
 //log the entire customer list to the console
 console.log(customers); // Log the updated customer list
+
+// Task 5 : Object Methods - Order Processsing Systems 
+let order = {
+    orderId: 12345,
+    customerName: "Lili Joe",
+    amount: 60,
+    // Method to calculate tax (assuming a 10% tax rate)
+    calculateTax: function() {
+        return this.amount * 0.10;  // Calculate 10% tax
+         }
+};
+// Log the order details and tax amount 
+console.log( "Order Details:",order); //Log order details 
+console.log( "Tax Amount;",order.calculateTax()) // Log the Tax amount
