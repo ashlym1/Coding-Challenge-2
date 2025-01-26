@@ -29,3 +29,14 @@ employee.department = "Marketing";  // The department remains Marketing
 employee.position = "Creative Director";  // Adding a higher, creative position
 // Log the updated object to the console
 console.log(employee);  // Log the updated employee object
+
+// Task 4: Array of Objects - Customer Database 
+let customers =[ 
+    { name: "Lili Joe",email: "lilijo23@gmail.com", purchaseAmount: 60},
+    { name: "Jaded Doe", email: "jjdoe@gmail.com", purchaseAmount: 80 },
+    { name : "Hera Smith", email: "herasm@gmail.com", purchaseAmount: 100}
+];
+//add a new customer to the array
+customers.push({ name :"Henry Centella ", email:"hencentella@gmail.com", purchaseAmount: 140}); // New customer 
+//log the entire customer list to the console
+console.log(customers); // Log the updated customer list
